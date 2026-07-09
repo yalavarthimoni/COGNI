@@ -1,5 +1,6 @@
 USE AdvancedSQL;
 
+DROP PROCEDURE IF EXISTS GetEmployees;
 
 DELIMITER //
 
