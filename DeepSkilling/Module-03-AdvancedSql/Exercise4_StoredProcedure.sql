@@ -1,0 +1,15 @@
+USE AdvancedSQL;
+
+
+DELIMITER //
+
+CREATE PROCEDURE GetEmployees()
+
+BEGIN
+
+SELECT *
+FROM Employees;
+
+END //
+
+DELIMITER ;
